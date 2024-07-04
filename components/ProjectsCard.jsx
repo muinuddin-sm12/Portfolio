@@ -7,7 +7,7 @@ const ProjectsCard = ({ project }) => {
   return (
     <Card>
       <CardHeader className="p-0">
-        <div className="relative w-full  flex items-center justify-center">
+        <div className="relative w-full h-[300px] flex items-center justify-center">
           <Image
             className="absolute bottom-0 shadow-2xl"
             width={247}
