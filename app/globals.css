@@ -74,3 +74,13 @@
       @apply bg-background text-foreground;
     }
   }
+
+  .h1{
+    @apply text-6xl xl:text-[72px] xl:leading-[88px] tracking-[-2px] font-bold;
+  }
+  .subtitle{
+    @apply text-muted-foreground text-lg mb-8 font-light;
+  }
+  .section-title{
+    @apply text-3xl font-bold relative w-max flex items-center justify-between gap-x-3 ;
+  }
