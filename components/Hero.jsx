@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { Download, Send } from "lucide-react";
-
 import {
   RiBriefcase4Fill,
   RiTeamFill,
@@ -12,6 +11,12 @@ import {
 import HeroImg from "./HeroImg";
 
 const Hero = () => {
+  const downloadResume = () => {
+    const link = document.createElement('a');
+    link.href = '/resume/Resume Of Muin.pdf';
+    link.download = 'Resume of Muin.pdf';
+    link.click();
+  };
   return (
     <section className="py-12 xl:py-24 h-[84vh] xl:pt-28">
       <div className="container mx-auto">
@@ -27,11 +32,10 @@ const Hero = () => {
             </div>
             <h1 className="h1 mb-4">Hello, my name is Muin</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Brief description with insights into myself, my vocational journey
-              , aand what I engage in professionally.
+            Hi there, I'm Muin! a Junior Front End Web Developer passionate about Software Engineering.
             </p>
             <div>
-              <Button className="gap-x-2">
+              <Button className="gap-x-2" onClick={downloadResume}>
                 Resume <Download size={18} />
               </Button>
             </div>

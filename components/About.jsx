@@ -121,4 +121,3 @@ const About = () => {
 
 export default About;
 
-// containerStyles='w-[480px] h-[480px] bg-no-repeat relative bg-bottom' imgSrc='/hero/profile.jpeg'
