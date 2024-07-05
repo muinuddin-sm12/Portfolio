@@ -91,7 +91,7 @@ const About = () => {
                   </div>
                 </TabsContent>
                 <TabsContent value="skills">
-                    <div className="">
+                    <div className="max-w-[600px] mx-auto">
                         <h3 className="text-xl font-semibold mb-1">Skills</h3>
                         <p className="font-medium text-base ">Front-End: <span className="text-gray-700 text-sm ">HTML5, CSS3, Tailwind, JavaScript, React.js</span></p>
                         <p className="font-medium text-base ">Back-End: <span className="text-gray-700 text-sm ">Node.js, Express.js, MongoDB, Firebase</span></p>
