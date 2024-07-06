@@ -1,6 +1,4 @@
 "use client";
-import Link from "next/link";
-import { Button } from "./ui/button";
 import "swiper/css";
 import 'swiper/css/pagination';
 import { Pagination } from "swiper/modules";
@@ -16,11 +14,11 @@ const projectData = [
     github: "https://github.com/muinuddin-sm12/TripForge-client",
   },
   {
-    image: "/projects/apexplace.jpg",
-    name: "ApexPlace",
-    description: "Industrial Real Estate",
-    link: "https://assignment-9-294ac.web.app/",
-    github: "https://github.com/muinuddin-sm12/ApexPlace",
+    image: "/projects/life-parner.jpg",
+    name: "Life Partner",
+    description: "An online marriage platform",
+    link: "https://life-partner-website.netlify.app/",
+    github: "https://github.com/muinuddin-sm12/lifePartner-client",
   },
   {
     image: "/projects/bookverse.jpg",
@@ -28,6 +26,13 @@ const projectData = [
     description: "Online Books Review Website",
     link: "https://b9a8-bookverse.netlify.app/",
     github: "https://github.com/muinuddin-sm12/BookVerse",
+  },
+  {
+    image: "/projects/apexplace.jpg",
+    name: "ApexPlace",
+    description: "Industrial Real Estate",
+    link: "https://assignment-9-294ac.web.app/",
+    github: "https://github.com/muinuddin-sm12/ApexPlace",
   },
   {
     image: "",
@@ -39,7 +44,7 @@ const projectData = [
 ];
 const Projects = () => {
   return (
-    <section className="relative mb-12 xl:mb-48">
+    <section className="py-10 lg:py-16">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           My Projects
         </h2>
