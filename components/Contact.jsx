@@ -20,8 +20,8 @@ const Contact = () => {
             We believe in the power of collaboration to achieve great things. By combining our expertise and passion, we can create innovative solutions and make a lasting impact.
             </p>
           </div>
-          <div className="w-1/2 md:flex hidden items-center justify-center">
-            <Image width={350} height={300} src='/contact/contact.png' alt="Contact" priority/>
+          <div className="w-1/2 md:flex hidden pr-16 items-center justify-center">
+            <Image width={400} height={350} src='/contact/contact.png' alt="Contact" priority/>
           </div>
         </div>
         <div>

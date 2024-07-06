@@ -1,11 +1,11 @@
 "use client";
 import { useState } from "react";
-// import { Button } from "./ui/button";
 import { Form } from "./ui/form";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import emailjs from "@emailjs/browser";
 import { MailIcon, MessageSquare } from "lucide-react";
+import { Button } from "./ui/button";
 const FormComponent = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -71,9 +71,9 @@ const FormComponent = () => {
           />
           <MessageSquare className="absolute top-4 right-6" />
         </div>
-        <button type="submit" className="bg-black">
+        <Button type="submit" className="bg-black">
           Send
-        </button>
+        </Button>
       </div>
     </Form>
   );
