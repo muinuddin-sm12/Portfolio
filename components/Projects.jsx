@@ -17,7 +17,7 @@ const projectData = [
     image: "/projects/life-parner.jpg",
     name: "Life Partner",
     description: "An online marriage platform",
-    link: "https://life-partner-website.netlify.app/",
+    link: "https://life-partner-client.vercel.app/",
     github: "https://github.com/muinuddin-sm12/lifePartner-client",
   },
   {
