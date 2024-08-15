@@ -21,6 +21,13 @@ const projectData = [
     github: "https://github.com/muinuddin-sm12/lifePartner-client",
   },
   {
+    image: "/public/projects/mobile-banking.png",
+    name: "Mobile Banking",
+    description: "An online mobile banking platform",
+    link: "https://mobile-banking-client.vercel.app/",
+    github: "https://github.com/muinuddin-sm12/Mobile-Banking-client",
+  },
+  {
     image: "/projects/bookverse.jpg",
     name: "BookVerse",
     description: "Online Books Review Website",

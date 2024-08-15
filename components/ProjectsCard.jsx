@@ -6,7 +6,7 @@ const ProjectsCard = ({ project }) => {
   return (
     <Card className=''>
       <CardHeader className="p-6">
-        <div className="relative w-full h-[250px] overflow-hidden flex items-center justify-center">
+        <div className="relative w-full h-[220px] overflow-hidden flex items-center justify-center">
           <Image
             className="absolute top-0 bg-black shadow-2xl"
             width={247}
