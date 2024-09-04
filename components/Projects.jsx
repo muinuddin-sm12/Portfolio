@@ -21,6 +21,13 @@ const projectData = [
     github: "https://github.com/muinuddin-sm12/lifePartner-client",
   },
   {
+    image: "/projects/refokus.png",
+    name: "Refokus",
+    description: "A commecial portfolio website",
+    link: "https://refokus-clone-website.netlify.app/",
+    github: "https://github.com/muinuddin-sm12/refokus-clone",
+  },
+  {
     image: "/projects/mobile-banking.png",
     name: "Mobile Banking",
     description: "An online mobile banking platform",
