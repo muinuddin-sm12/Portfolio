@@ -23,7 +23,7 @@ const projectData = [
   {
     image: "/projects/refokus.png",
     name: "Refokus",
-    description: "A commecial portfolio website",
+    description: "A creative digital agency",
     link: "https://refokus-clone-website.netlify.app/",
     github: "https://github.com/muinuddin-sm12/refokus-clone",
   },
