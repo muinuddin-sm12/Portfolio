@@ -7,18 +7,18 @@ import ProjectsCard from "./ProjectsCard";
 
 const projectData = [
   {
-    image: "/projects/tripforge.jpg",
-    name: "TripForge",
-    description: "Tourism Management website",
-    link: "https://tripforge-b9a10.web.app/",
-    github: "https://github.com/muinuddin-sm12/TripForge-client",
-  },
-  {
     image: "/projects/life-parner.jpg",
     name: "Life Partner",
     description: "An online marriage platform",
     link: "https://life-partner-client.vercel.app/",
     github: "https://github.com/muinuddin-sm12/lifePartner-client",
+  },
+  {
+    image: "/projects/tripforge.jpg",
+    name: "TripForge",
+    description: "Tourism Management website",
+    link: "https://tripforge-b9a10.web.app/",
+    github: "https://github.com/muinuddin-sm12/TripForge-client",
   },
   {
     image: "/projects/refokus.png",
@@ -48,13 +48,6 @@ const projectData = [
     link: "https://assignment-9-294ac.web.app/",
     github: "https://github.com/muinuddin-sm12/ApexPlace",
   },
-  {
-    image: "",
-    name: "Website 4",
-    description: "...........",
-    link: "/",
-    github: "/",
-  },
 ];
 const Projects = () => {
   return (
@@ -76,7 +69,7 @@ const Projects = () => {
             modules={[Pagination]}
             pagination={{ clickable: true }}
           >
-            {projectData.slice(0, 4).map((project, index) => {
+            {projectData.map((project, index) => {
               return (
                 <SwiperSlide key={index}>
                   <ProjectsCard project={project} />
