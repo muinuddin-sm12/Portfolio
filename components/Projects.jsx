@@ -17,7 +17,7 @@ const projectData = [
     image: "/projects/tripforge.jpg",
     name: "TripForge",
     description: "Tourism Management website",
-    link: "https://tripforge-b9a10.web.app/",
+    link: "https://b9-a10-client-side-muinuddin-sm12.vercel.app/",
     github: "https://github.com/muinuddin-sm12/TripForge-client",
   },
   {
